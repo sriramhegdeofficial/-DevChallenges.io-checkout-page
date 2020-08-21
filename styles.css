@@ -375,15 +375,18 @@ footer {
     body {
         padding: 0px 8%;
       }
+
+      
       .country-select {
         
-        font-size: 0.65rem;
+        font-size: 0.53rem;
  
         
     }
 
-    .half-input::placeholder {
-        font-size: 0.65rem;
+    .form-control .input-wrapper .half-input::placeholder {
+        font-size: 0.53rem;
+        
     }
     
 
