@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 10%;
+}
+
+main {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 50px 0;
+    
+}
+
+.title-main {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 44px;
+    text-transform: capitalize;
+    color: #4E5150;
+    margin-bottom: 30px;
+}
+
+#checkout-form {
+    display: flex;
+    width: 100%;
+    
+}
+
+.form-main {
+    width: 100%;
+    min-width: 250px;
+    flex: 1;
+    margin-right: 25px;
+}
+
+.form-group {
+    margin-bottom: 60px;
+}
+
+.item-group-wrapper {
+    width: 50%;
+    margin-bottom: 70px;
+    height: 620px;
+    padding: 30px;
+    background: #F2F2F2;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.item-wrapper {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 35px;
+    display: flex;
+}
+
+.item-wrapper img {
+    height: 100%;
+    border-radius: 20px;
+}
+
+.item-wrapper .content-wrapper {
+    flex: 1;
+    height: 100%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.item-number-chooser {
+    border: 1px solid #828282;
+    border-radius: 12px;
+    width: 75%;
+    
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.counter-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E0E0E0;
+    border-radius: 4px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.counter-button p {
+    color:#828282;
+}
+
+.meta-data-wrapper .item-name {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 20px;
+    color: #4E5150;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.title-contact-info {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 22px;
+    color: #333333;
+    margin-bottom: 25px;
+}
+
+
+.discount-price {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 20px;
+    color: #F2994A; 
+    margin-right: 15px;
+
+}
+
+.original-price {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 15px;
+    text-decoration-line: line-through;
+    color: #4E5150;
+}
+.inline-block {
+    display: inline-block;
+
+}
+
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-control-duo {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.marginL {
+    margin-left: 10px;
+}
+
+.marginR {
+    margin-right: 10px;
+}
+
+.form-control label {
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 15px;
+    color: #4F4F4F;
+    margin-bottom: 10px;
+}
+
+.input-wrapper {
+    display: flex;
+    padding: 10px 10px;
+    width: 100%;
+    height: 56px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    align-items: center;
+    
+}
+
+.input-wrapper .material-icons {
+    color : #828282;
+}
+
+.form-control .input-wrapper input {
+    width: 100%;
+    height: 80%;
+    margin-left: 15px;
+    border: none;
+    outline: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-control .input-wrapper input::placeholder {
+    color: #828282;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.save-info-checkbox-label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.85rem;
+    line-height: 15px;
+    color: #4F4F4F;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.save-info-checkbox {
+    width: 24px;
+    height: 24px;
+    
+}
+
+.checkbox-form-control {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.submit-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+
+
+}
+
+.country-select {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 20px;
+    color: #828282;
+    
+}
+
+.submit-wrapper input {
+    background: #F2994A;
+    border-radius: 12px;  
+    color: #FFFFFF;
+    padding: 20px 45px;
+    outline: none;
+    border: none;  
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex {
+    flex: 1;
+}
+
+.abs-parent {
+    
+    position: relative;
+}
+
+.abs-child {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    background: #828282;
+    top: 0;
+    right: -1px;
+    pointer-events: none;
+    opacity: 0.25;
+    border-radius: 5px;
+}
+
+.bill-details {
+    width: 100%;
+    height: 65px;
+    border-top : 1px solid #BDBDBD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bill-details .bill-item {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 22px;
+    color: #333333;
+}
+
+.bill-details .bill-cost {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 22px;
+    color: #333333;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #A9A9A9;
+}
+
+
+
+
+@media only screen and (max-width: 1150px) {
+    body {
+     padding: 0px 25%;
+    }
+
+    #checkout-form {
+        flex-direction: column-reverse;
+    }
+
+    .item-group-wrapper {
+        width: 100%;
+        
+        height: auto;
+        
+        
+    
+    }
+
+    .item-number-chooser {
+        max-width: 180px;
+        height: 40px;
+    }
+
+    .item-wrapper {
+        height: 150px;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    body {
+        padding: 0px 8%;
+      }
+
+    
+  }

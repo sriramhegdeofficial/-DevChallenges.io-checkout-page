@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>Welcome | Checkout Page</title>
+
+</head>
+<body>
+    <main>
+        <h1 class="title-main">checkout</h1>
+        <form id="checkout-form">
+            <div class="form-main">
+                <div class="form-group">
+                    <h2 class="title-contact-info">Contact infomation</h2>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <div class="input-wrapper">
+                            <span class="material-icons">email</span>
+                            <input type="email" name="email" placeholder="Enter your email..." required/>
+                        </div>
+                        
+                    </div>
+                    <div class="form-control">
+                        <label for="phone">Phone</label>
+                        <div class="input-wrapper">
+                            <span class="material-icons">phone</span>
+                            <input type="text" 
+                            name="phone" 
+                            placeholder="Enter your phone..." 
+                            title="Please enter a real valid phone number"
+                            pattern="[0-9]{10}" maxlength="10" minlength="10" required/>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="form-group">
+                    <h2 class="title-contact-info">Shipping address</h2>
+                    <div class="form-control">
+                        <label for="full-name">Full name</label>
+                        <div class="input-wrapper">
+                            <span class="material-icons">account_circle</span>
+                            <input type="text" name="full-name" placeholder="Enter your full name..." required/>
+                        </div>
+                        
+                    </div>
+                    <div class="form-control">
+                        <label for="address">Address</label>
+                        <div class="input-wrapper">
+                            <span class="material-icons">home</span>
+                            <input type="text" name="address" placeholder="Your address..." required/>
+                        </div>
+                        
+                    </div>
+                    <div class="form-control">
+                        <label for="city">City</label>
+                        <div class="input-wrapper">
+                            <span class="material-icons">location_city</span>
+                            <input type="text" name="city" placeholder="Your city..." required/>
+                        </div>
+                        
+                    </div>
+                    <div class="form-control-duo">
+                        <div class="form-control flex marginR">
+                            <label for="country">Country</label>
+                            <div class="input-wrapper">
+                                <div class="abs-parent">
+                                    <div class="abs-child"></div>
+                                    <select name="country" class="country-select" required>
+                                        <option value="" selected disabled hidden>Your Country...</option>
+                                        <option value="India">India</option>
+                                        <option value="United States of America">United States of America</option>
+                                        <option value="Russia">Russia</option>
+                                        <option value="France">France</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-control flex marginL">
+                            <label for="postal-code">Postal code</label>
+                            <div class="input-wrapper">
+                                <span class="material-icons">markunread_mailbox</span>
+                                <input type="text" name="postal-code" placeholder="Your postal code..." 
+                                pattern="^[0-9]*$"
+                                title="Please enter a valid zipcode"
+                                maxlength="10"/>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="checkbox-form-control">
+                        <input type="checkbox" class="save-info-checkbox marginR" name="save-info" value="save-info" />
+                        <label for="save-info" class="save-info-checkbox-label">Save this information for next time</label>
+                    </div>
+                    <div class="submit-wrapper">
+                        <input type="submit" value="continue" />
+                    </div>
+                </div>
+            </div>
+            <div class="item-group-wrapper">
+                <div class="item-wrapper">
+                    <img src="./assets/photo1.png" alt="image of a backpack" />
+                    <div class="content-wrapper">
+                        <div class="meta-data-wrapper">
+                            <p class="item-name">Vintage Backbag</p>
+                            <p class="discount-price inline-block">$54.99</p>
+                            <p class="original-price inline-block">$94.99</p>
+                        </div>
+                        <div class="item-number-chooser">
+                            <div class="counter-button">
+                                <p>-</p>
+                            </div>
+                            <p class="item-count-indicator">1</p>
+                            <div class="counter-button">
+                                <p>+</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-wrapper">
+                    <img src="./assets/photo2.png" alt="image of shoes" />
+                    <div class="content-wrapper">
+                        <div class="meta-data-wrapper">
+                            <p class="item-name">Vintage Backbag</p>
+                            <p class="discount-price inline-block">$54.99</p>
+                            <p class="original-price inline-block">$94.99</p>
+                        </div>
+                        <div class="item-number-chooser">
+                            <div class="counter-button">
+                                <p>-</p>
+                            </div>
+                            <p class="item-count-indicator">1</p>
+                            <div class="counter-button">
+                                <p>+</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bill-details">
+                    <p class="bill-item">Shipping</p>
+                    <p class="bill-cost">$19</p>
+                </div>
+                <div class="bill-details">
+                    <p class="bill-item">Total</p>
+                    <p class="bill-cost">$148.98</p>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        Sriram @ DevChallenges.io
+    </footer>
+</body>
+</html>
