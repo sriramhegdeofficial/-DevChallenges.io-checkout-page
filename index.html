@@ -68,7 +68,7 @@
                             <div class="input-wrapper">
                                 <div class="abs-parent">
                                     <div class="abs-child"></div>
-                                    <select name="country" class="country-select" required>
+                                    <select name="country" class="country-select half-input" required>
                                         <option value="" selected disabled hidden>Your Country...</option>
                                         <option value="India">India</option>
                                         <option value="United States of America">United States of America</option>
@@ -82,7 +82,9 @@
                             <label for="postal-code">Postal code</label>
                             <div class="input-wrapper">
                                 <span class="material-icons">markunread_mailbox</span>
-                                <input type="text" name="postal-code" placeholder="Your postal code..." 
+                                <input
+                                type="text" name="postal-code" placeholder="Your postal code..." 
+                                class="half-input"
                                 pattern="^[0-9]*$"
                                 title="Please enter a valid zipcode"
                                 maxlength="10"/>

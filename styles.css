@@ -375,6 +375,17 @@ footer {
     body {
         padding: 0px 8%;
       }
+      .country-select {
+        
+        font-size: 0.65rem;
+ 
+        
+    }
+
+    .half-input {
+        font-size: 0.65rem;
+    }
+    
 
     
   }
