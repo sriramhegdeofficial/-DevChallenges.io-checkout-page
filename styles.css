@@ -356,11 +356,18 @@ footer {
         width: 100%;
         
         height: auto;
-        
-        
-    
+    }
 
+    .item-wrapper img {
+        height: 85%;
+        
+    }
 
+    .item-wrapper .content-wrapper {
+       
+        height: 85%;
+        padding-left: 10px;
+       
     }
 
     .counter-button {
@@ -372,8 +379,9 @@ footer {
 
     .item-number-chooser {
         min-width: 90px;
-        height: 40px;
+        height: 35px;
         padding: 0px 5px;
+        font-size: 0.6rem;
     }
 
     
@@ -381,7 +389,25 @@ footer {
     .item-wrapper {
         height: 150px;
     }
+
+    .meta-data-wrapper .item-name {
+        
+        font-size: 0.85rem;
+        letter-spacing: 0.5px;
+        margin-bottom: 8px;
+    }
+
+    .discount-price {
+        font-size: 0.80rem;
+        margin-right: 6px;
+    
+    }
+    
+    .original-price {
+        font-size: 0.7rem;
+    }
   }
+
 
   @media only screen and (max-width: 750px) {
     body {
