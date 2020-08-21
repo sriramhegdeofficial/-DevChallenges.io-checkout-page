@@ -382,7 +382,7 @@ footer {
         
     }
 
-    .half-input {
+    .half-input::placeholder {
         font-size: 0.65rem;
     }
     
